@@ -1,0 +1,46 @@
+{
+  "name": "tokyo-night-dark-enhanced",
+  "displayName": "Tokyo Night Dark Enhanced",
+  "description": "an edit of tokyo night dark with tweaked syntax colors",
+  "version": "1.0.0",
+  "publisher": "Venage5603",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced"
+  },
+  "bugs": {
+    "url": "https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "tokyo",
+    "night",
+    "dark",
+    "enhanced"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Night Dark Enhanced",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-dark-enhanced-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
