@@ -5,10 +5,10 @@
   "type": "dark",
   "semanticTokenColors": {
     "parameter.declaration": {
-      "foreground": "#e0af68"
+      "foreground": "#4da4cc"
     },
     "parameter": {
-      "foreground": "#d9d4cd"
+      "foreground": "#4db9a7"
     },
     "property.declaration": {
       "foreground": "#73daca"
@@ -1497,13 +1497,6 @@
       "scope": "source.env",
       "settings": {
         "foreground": "#7aa2f7"
-      }
-    },
-    {
-      "name": "Interface",
-      "scope": "entity.name.type.interface",
-      "settings": {
-        "foreground": "#53c5b2"
       }
     }
   ]
