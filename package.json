@@ -1,7 +1,7 @@
 {
   "name": "tokyo-night-dark-enhanced",
   "displayName": "Tokyo Night Dark Enhanced",
-  "description": "an edit of tokyo night dark with tweaked syntax colors",
+  "description": "an edit of tokyo night dark with some small changes and additions such as adjusted syntax highlighting colors, additional syntax colors for unreal engine functions, and fixes to depreciated color values",
   "version": "1.1.0",
   "publisher": "Venage5603",
   "license": "MIT",
