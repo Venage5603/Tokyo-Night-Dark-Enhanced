@@ -361,10 +361,6 @@
     "merge.incomingHeaderBackground": "#3d59a1aa",
     "merge.incomingContentBackground": "#3d59a144",
 
-    "gitlens.trailingLineForegroundColor": "#444b6a",
-    "gitlens.gutterUncommittedForegroundColor": "#444b6a",
-    "gitlens.gutterForegroundColor": "#444b6a",
-
     "notificationCenterHeader.background": "#101014",
     "notifications.background": "#101014",
     "notificationLink.foreground": "#6183bb",
