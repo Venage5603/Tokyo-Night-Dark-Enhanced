@@ -1116,7 +1116,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#07da63"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -1497,6 +1497,13 @@
       "scope": "source.env",
       "settings": {
         "foreground": "#7aa2f7"
+      }
+    },
+    {
+      "name": "Interface",
+      "scope": "entity.name.type.interface",
+      "settings": {
+        "foreground": "#53c5b2"
       }
     }
   ]
