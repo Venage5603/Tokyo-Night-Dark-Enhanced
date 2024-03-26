@@ -26,7 +26,7 @@
       "foreground": "#5623b4"
     },
     "variable": {
-      "foreground": "#0624a7"
+      "foreground": "#152fa1"
     }
   },
   "semanticClass": "tokyo-night",
@@ -670,7 +670,7 @@
         "variable.parameter.handlebars"
       ],
       "settings": {
-        "foreground": "#0624a7"
+        "foreground": "#152fa1"
       }
     },
     {
