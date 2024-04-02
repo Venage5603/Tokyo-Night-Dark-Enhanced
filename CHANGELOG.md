@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.4.1 (4/2/2024)
+
+## changes
+
+- fixed variable colors still being the previous color code (i forgot to change something lol)
+
 # V1.4.0 (4/2/2024)
 
 ## changes
