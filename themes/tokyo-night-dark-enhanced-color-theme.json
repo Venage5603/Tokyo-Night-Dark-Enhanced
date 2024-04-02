@@ -20,13 +20,13 @@
       "foreground": "#2ac3de"
     },
     "variable.defaultLibrary": {
-      "foreground": "#2ac3de"
+      "foreground": "#29b0c8"
     },
     "variable.declaration": {
-      "foreground": "#5623b4"
+      "foreground": "#6026cb"
     },
     "variable": {
-      "foreground": "#152466"
+      "foreground": "#04d9ff"
     }
   },
   "semanticClass": "tokyo-night",
