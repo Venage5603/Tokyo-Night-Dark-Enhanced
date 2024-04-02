@@ -21,7 +21,10 @@ jobs:
       - name: Install vsce
         run: npm install -g @vscode/vsce
 
-      - name: Build the extension
+      - name: Update dependencies
+        run: npm update
+
+      - name: Build the Extension
         run: vsce package
 
       - name: Upload artifact
