@@ -1,4 +1,4 @@
-name: Build the Extension
+name: Build Extension
 
 on:
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
       - name: Update dependencies
         run: npm update
 
-      - name: Build the Extension
+      - name: Build Extension
         run: vsce package
 
       - name: Upload artifact
