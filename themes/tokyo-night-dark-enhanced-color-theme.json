@@ -14,13 +14,13 @@
       "foreground": "#73daca"
     },
     "property.defaultLibrary": {
-      "foreground": "#2ac3de"
+      "foreground": "#36b875"
     },
     "*.defaultLibrary": {
-      "foreground": "#269cb1"
+      "foreground": "#7925a0"
     },
     "variable.defaultLibrary": {
-      "foreground": "#29b0c8"
+      "foreground": "#319ace"
     },
     "variable.declaration": {
       "foreground": "#6026cb"
