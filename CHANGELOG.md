@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.6.2 (4/4/2024)
+
+## changes
+
+- finally fixed the "#include" syntax color
+- reverted some other color changes
+
 # V1.6.1 (4/4/2024)
 
 ## changes
