@@ -17,7 +17,7 @@
       "foreground": "#2ac3de"
     },
     "*.defaultLibrary": {
-      "foreground": "#2ac3de"
+      "foreground": "#269cb1"
     },
     "variable.defaultLibrary": {
       "foreground": "#29b0c8"
@@ -26,7 +26,7 @@
       "foreground": "#6026cb"
     },
     "variable": {
-      "foreground": "#04d9ff"
+      "foreground": "#27c6d5"
     }
   },
   "semanticClass": "tokyo-night",
@@ -670,7 +670,7 @@
         "variable.parameter.handlebars"
       ],
       "settings": {
-        "foreground": "#04d9ff"
+        "foreground": "#27c6d5"
       }
     },
     {
@@ -1281,7 +1281,7 @@
       "name": "HTML text",
       "scope": ["text.html", "text.log"],
       "settings": {
-        "foreground": "#9aa5ce"
+        "foreground": "#3ce78f"
       }
     },
     {
