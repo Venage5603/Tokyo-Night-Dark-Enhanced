@@ -601,7 +601,7 @@
       "name": "Keyword",
       "scope": ["keyword", "keyword.control", "keyword.other.important"],
       "settings": {
-        "foreground": "#bb9af7"
+        "foreground": "#27c6d5"
       }
     },
     {
@@ -949,7 +949,7 @@
         "meta.at-rule.include keyword.control.at-rule.include"
       ],
       "settings": {
-        "foreground": "#4da4cc"
+        "foreground": "#bb9af7"
       }
     },
     {
@@ -967,7 +967,7 @@
         "keyword.control punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#4da4cc"
+        "foreground": "#9d7cd8"
       }
     },
     {
