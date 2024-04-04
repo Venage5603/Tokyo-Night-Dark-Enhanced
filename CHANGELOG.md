@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.6.0 (4/4/2024)
+
+## changes
+
+- update include keyword syntax color
+
 # V1.5.0 (4/4/2024)
 
 ## changes
