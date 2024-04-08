@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Tokyo-Night-Dark-Enhanced
-          path: D:\a\Tokyo-Night-Dark-Enhanced\Tokyo-Night-Dark-Enhanced\tokyo-night-dark-enhanced-1.6.2.vsix 
+          path: D:\a\Tokyo-Night-Dark-Enhanced\Tokyo-Night-Dark-Enhanced\tokyo-night-dark-enhanced-1.7.0.vsix 
