@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.9.0 (6/15/2024)
+
+## changes
+
+- tweaked the html text color more as it was not to my liking
+
 # V1.8.1 (6/15/2024)
 
 ## changes
