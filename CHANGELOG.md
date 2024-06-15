@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.8.0 (6/15/2024)
+
+## changes
+
+- updated a lot of dependencies
+- tweaked html text color to look more purple for individuality
+
 # V1.7.0 (4/8/2024)
 
 ## changes
