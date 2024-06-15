@@ -9,3 +9,5 @@ this edit was primarily created to tweak current syntax highlighting colors as s
 ![Screenshot 2024-03-25 171354](https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced/assets/116987090/1805e060-0443-4469-9743-22c3461080b5)
 
 the extension i used to customize my background can be found [here](https://marketplace.visualstudio.com/items?itemName=Katsute.code-background)
+
+this theme is also avalable with Visual Studio now! you can find the officially maintained version [here](https://marketplace.visualstudio.com/items?itemName=Venage5603.TokyoNightDarkEnhancedVS1349)

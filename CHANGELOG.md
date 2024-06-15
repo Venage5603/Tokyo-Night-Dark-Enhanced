@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.8.1 (6/15/2024)
+
+## changes
+
+- add something i left out in the initial 1.8 release. nothing special lol
+
 # V1.8.0 (6/15/2024)
 
 ## changes
