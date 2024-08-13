@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# V1.10.0 (8/13/2024)
+
+## changes
+
+- updated dependencies
+- specified support for html and godot/gdscript in theme tags
+
 # V1.9.0 (6/15/2024)
 
 ## changes
