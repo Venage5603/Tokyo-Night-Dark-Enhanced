@@ -2,7 +2,7 @@
 
 an edit of [Tokyo Night Dark](https://marketplace.visualstudio.com/items?itemName=drewxs.tokyo-night-dark) with some small changes and additions such as adjusted syntax highlighting colors, additional syntax colors for unreal engine functions, and fixes to depreciated color values.
 
-this edit was primarily created to tweak current syntax highlighting colors as some were not to my liking, and also to add some new ones to add better support for unreal engine functions
+this edit was primarily created to tweak current syntax highlighting colors as some were not to my liking, and also to add some new ones to add better support for unreal engine functions, as well as better syntax for GDScript and html
 
 <h2 align="center">Screenshot</h2>
 
