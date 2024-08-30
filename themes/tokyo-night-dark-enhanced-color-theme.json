@@ -1281,7 +1281,7 @@
       "name": "HTML text",
       "scope": ["text.html", "text.log"],
       "settings": {
-        "foreground": "#9f3ac7"
+        "foreground": "#5f107e"
       }
     },
     {

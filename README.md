@@ -12,5 +12,4 @@ this edit was primarily created to tweak current syntax highlighting colors as s
 
 ![Godot](https://github.com/user-attachments/assets/ca9ef86e-8cc1-4b56-80e4-00abe1bd1af0)
 
-
 the extension i used to customize my background can be found [here](https://marketplace.visualstudio.com/items?itemName=Katsute.code-background)
