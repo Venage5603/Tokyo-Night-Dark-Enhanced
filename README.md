@@ -4,8 +4,6 @@ an edit of [Tokyo Night Dark](https://marketplace.visualstudio.com/items?itemNam
 
 this edit was primarily created to tweak current syntax highlighting colors as some were not to my liking, and also to add some new ones to add better support for unreal engine functions, as well as better syntax for GDScript and html
 
-<h2 align="center">Screenshot</h2>
-
 ## Unreal Engine
 
 ![Screenshot 2024-03-25 171354](https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced/assets/116987090/1805e060-0443-4469-9743-22c3461080b5)
