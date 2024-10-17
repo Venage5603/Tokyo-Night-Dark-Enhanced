@@ -33,7 +33,9 @@
     "UE5",
     "Godot",
     "GDScript",
-    "Unity"
+    "Unity",
+    "cpp",
+    "cs"
   ],
   "contributes": {
     "themes": [
