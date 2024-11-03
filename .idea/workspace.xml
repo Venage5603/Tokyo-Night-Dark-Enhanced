@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0392e61-2f83-4f8b-a22c-876a1418a623" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="a0392e61-2f83-4f8b-a22c-876a1418a623" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +19,12 @@
     &quot;assignee&quot;: &quot;Venage5603&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced&quot;,
-    &quot;accountId&quot;: &quot;4e736e36-8362-4ed1-8979-43b6e6f0bf11&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Venage5603/Tokyo-Night-Dark-Enhanced.git",
+    "accountId": "6a084412-3cd0-47a7-bb30-bfa124bce716"
   }
-}</component>
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -49,7 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,6 +63,7 @@
       <workItem from="1730516913081" duration="182000" />
       <workItem from="1730517135904" duration="99000" />
       <workItem from="1730517256413" duration="835000" />
+      <workItem from="1730661130148" duration="95000" />
     </task>
     <servers />
   </component>
