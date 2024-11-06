@@ -25,7 +25,7 @@ jobs:
         run: vsce package
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v4.4.3
         with:
           name: Tokyo-Night-Dark-Enhanced
           path: D:\a\Tokyo-Night-Dark-Enhanced\Tokyo-Night-Dark-Enhanced\tokyo-night-dark-enhanced-1.10.0.vsix
