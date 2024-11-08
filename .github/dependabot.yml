@@ -11,10 +11,10 @@ updates:
     reviewers:
       - "Venage5603"
 
-      - package-ecosystem: "npm"
-        directory: "/"
-        schedule:
-          interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
       prefix: "build(deps)"
