@@ -12,7 +12,6 @@ updates:
       - "Venage5603"
 
   - package-ecosystem: "npm"
-    versions: ['>=11.0.0']
     directory: "/"
     schedule:
       interval: "daily"
