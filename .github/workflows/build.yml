@@ -1,6 +1,10 @@
 name: Build Extension
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -8,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4.2.2
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
 
-      - name: Use Node.js 22
-        uses: actions/setup-node@v4.3.0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
@@ -21,11 +27,16 @@ jobs:
       - name: Install vsce
         run: npm install -g @vscode/vsce
 
+      - name: Get version from package.json
+        id: package-version
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
       - name: Build Extension
         run: vsce package
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4.6.1
         with:
-          name: Tokyo-Night-Dark-Enhanced
-          path: D:\a\Tokyo-Night-Dark-Enhanced\Tokyo-Night-Dark-Enhanced\tokyo-night-dark-enhanced-1.10.0.vsix
+          name: tokyo-night-dark-enhanced-${{ steps.package-version.outputs.version }}
+          path: "*.vsix"
+          retention-days: 30

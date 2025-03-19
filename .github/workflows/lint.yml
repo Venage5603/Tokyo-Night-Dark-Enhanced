@@ -1,0 +1,35 @@
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating theme JSON files..."
+          find ./themes -name "*.json" -type f -exec node -e "try { require('{}'); console.log('{} is valid'); } catch(e) { console.error('{} is invalid:', e); process.exit(1); }" \;
+
+      - name: Validate package.json
+        run: |
+          echo "Validating package.json..."
+          node -e "try { require('./package.json'); console.log('package.json is valid'); } catch(e) { console.error('package.json is invalid:', e); process.exit(1); }"

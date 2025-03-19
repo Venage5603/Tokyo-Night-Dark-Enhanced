@@ -1,0 +1,65 @@
+name: Version Bump
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump_type:
+        description: 'Type of version bump'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+jobs:
+  version-bump:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Bump version and generate changelog
+        run: npx standard-version --release-as ${{ github.event.inputs.bump_type }}
+
+      - name: Get new version
+        id: get-version
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - name: Push changes
+        run: |
+          git push --follow-tags origin main
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "chore: release v${{ steps.get-version.outputs.version }}"
+          body: |
+            This PR bumps the version to v${{ steps.get-version.outputs.version }}
+            
+            Changes included in this release can be found in the CHANGELOG.md file.
+          branch: release/v${{ steps.get-version.outputs.version }}
+          base: main
+          labels: release
+          commit-message: "chore: release v${{ steps.get-version.outputs.version }}"
