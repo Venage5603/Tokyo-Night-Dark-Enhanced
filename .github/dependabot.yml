@@ -1,23 +1,62 @@
 version: 2
 updates:
+  # GitHub Actions dependencies
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Etc/UTC"
     open-pull-requests-limit: 10
     commit-message:
       prefix: "ci(deps)"
       prefix-development: "ci(deps-dev)"
+      include: "scope"
     reviewers:
       - "Venage5603"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    groups:
+      github-actions:
+        patterns:
+          - "actions/*"
+        update-types:
+          - "minor"
+          - "patch"
 
+  # NPM dependencies
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Etc/UTC"
     open-pull-requests-limit: 10
     commit-message:
       prefix: "build(deps)"
       prefix-development: "build(deps-dev)"
+      include: "scope"
     reviewers:
       - "Venage5603"
+    labels:
+      - "dependencies"
+      - "npm"
+    versioning-strategy: "widen"
+    groups:
+      dev-dependencies:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+      production-dependencies:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      # Ignore major version updates that might break compatibility
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
